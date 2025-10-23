@@ -13,9 +13,7 @@ export default defineConfig(() => {
       host: "0.0.0.0",
       port: 3000,
       open: true,
-      // 👇 tambahkan baris ini
-      allowedHosts: [
-      "navtrackshared-production.up.railway.app"
+      allowedHosts: ["navtrackshared-production.up.railway.app"],
     },
     resolve: {
       alias: {
